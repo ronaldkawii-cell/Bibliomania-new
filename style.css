@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+header {
+  background: url('IMG_20250726_163912.jpg') center/cover no-repeat;
+  height: 200px;
+  position: relative;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* smaller space between links */
+  background: rgba(0,0,0,0.6);
+  padding: 10px 0;
+}
+
+nav a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  color: #fff;
+}
+
+.intro {
+  padding: 40px 20px;
+  text-align: center;
+  background: rgba(0,0,0,0.5);
+}
+
+.about {
+  padding: 40px 20px;
+  background: url('IMG_20250726_163954.jpg') center/cover no-repeat;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.about h2, .about p {
+  background: rgba(0,0,0,0.5);
+  display: inline-block;
+  padding: 10px;
+  border-radius: 8px;
+}
