@@ -39,11 +39,10 @@ main {
   padding: 40px 20px;
   text-align: center;
   background: rgba(0,0,0,0.5);
-}
-
+  
 .about {
   padding: 40px 20px;
-  background-color: #4fb6b0; /* solid Bibliomania teal */
+  background-color: #4fb6b0; /* Bibliomania teal */
   text-align: center;
 }
 
