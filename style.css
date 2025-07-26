@@ -1,9 +1,12 @@
+/* Reset some basics */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #ffffff;
+  color: #000;
 }
 
+/* ===== HEADER / NAV ===== */
 header {
   background: url('IMG_20250726_163912.jpg') center/cover no-repeat;
   height: 200px;
@@ -15,7 +18,7 @@ nav {
   top: 0;
   display: flex;
   justify-content: center;
-  gap: 20px; /* smaller space between links */
+  gap: 20px; /* small space between links so they don’t get cut off */
   background: rgba(0,0,0,0.6);
   padding: 10px 0;
 }
@@ -31,23 +34,29 @@ nav a:hover {
   text-decoration: underline;
 }
 
+/* ===== MAIN CONTENT ===== */
 main {
+  text-align: center;
+}
+
+/* Intro section */
+.intro {
+  padding: 40px 20px;
+  background: rgba(0,0,0,0.5);
   color: #fff;
 }
 
-.intro {
-  padding: 40px 20px;
-  text-align: center;
-  background: rgba(0,0,0,0.5);
-  
+/* About section with solid teal background */
 .about {
   padding: 40px 20px;
-  background-color: #4fb6b0; /* Bibliomania teal */
+  background-color: #4fb6b0; /* Bibliomania teal, lightened */
   text-align: center;
+  color: #fff;
 }
 
-.about h2, .about p {
-  background: rgba(0,0,0,0.25); /* subtle contrast panel */
+.about h2,
+.about p {
+  background: rgba(0,0,0,0.25); /* subtle overlay for readability */
   display: inline-block;
   padding: 10px;
   border-radius: 8px;
