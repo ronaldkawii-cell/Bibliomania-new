@@ -43,13 +43,12 @@ main {
 
 .about {
   padding: 40px 20px;
-  background: url('IMG_20250726_163954.jpg') center/cover no-repeat;
+  background-color: #4fb6b0; /* solid Bibliomania teal */
   text-align: center;
-  background-attachment: fixed;
 }
 
 .about h2, .about p {
-  background: rgba(0,0,0,0.5);
+  background: rgba(0,0,0,0.25); /* subtle contrast panel */
   display: inline-block;
   padding: 10px;
   border-radius: 8px;
